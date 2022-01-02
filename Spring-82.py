@@ -458,7 +458,7 @@ class compression:
                                     		
 
                                     		
-                                    if   lenfS<=7000 or ccc==2:
+                                    if   lenfS<=8192 or ccc==2:
 
 
                                             lenf=len(sda17)
@@ -479,7 +479,7 @@ class compression:
                                             
                                     
                                                 
-                                    if   lenfS<=7000 or ccc==2:
+                                    if   lenfS<=8192 or ccc==2:
 
 
                                             sda29=bin(lenfTT)[2:]
@@ -495,7 +495,7 @@ class compression:
                                                          	z=z+1
                                             		
 
-                                    if   lenfS<=7000 or ccc==2:
+                                    if   lenfS<=8192 or ccc==2:
 
                                                 lenf=len(sda17)
                                                 szx=""
@@ -509,7 +509,7 @@ class compression:
 
                                            
 
-                                    if   lenfS<=7000 or ccc==2:
+                                    if   lenfS<=8192 or ccc==2:
                                             
                                             sda17=szx7+sda29+szx6+sda26+szx+sda17
 
