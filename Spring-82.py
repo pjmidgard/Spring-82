@@ -423,10 +423,10 @@ class compression:
                                             bits="0"
                                             Spin=0
                                             
-                                    if ccc==1 and bit=="1":
-                                    	sda17=sda17
-                                    	bits="1"
-                                    	Spin=Spin+1
+                                    if ccc==2:
+                                    	
+                                    	
+                                    
                                     	Circle_times2=Circle_times2-1
                                     	sda18=sda3
                                           
