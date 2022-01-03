@@ -570,10 +570,8 @@ class compression:
                                     if C==1:
                                         if   Circle_times2==0:
                                                 sda6=sda3[0:48]
-                                                TT = int(sda6, 2)
-                                                sda7=sda3[TT+0:TT+48]
-                                                T = int(sda7, 2)
-                                                sda3=sda3[TT+48:]
+                                                T = int(sda6, 2)
+                                                sda3=sda3[48:]
                                                 lenf6=len(sda3)
                                                 
                                         
