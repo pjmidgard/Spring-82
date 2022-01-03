@@ -395,25 +395,7 @@ class compression:
                                                         while z<xc:
                                                          	szx4="0"+szx4
                                                          	z=z+1
-
-                                    
-                                    if ccc==1 or ccc==2:
-                                            
-                                            Spin_Save=bin(Spin)[2:]
-                                            hr=4
-                                            
-                                        	
-                                            lenf=len(Spin_Save)
-                                            szx14=""
-                                            xc=hr-lenf%hr
-                                            z=0
-                                            if xc!=0:
-                                                if xc!=hr:
-                                                        while z<xc:
-                                                         	szx14="0"+szx14
-                                                         	z=z+1
- 
-                                            
+     
                                     if ccc==1:
                                            
                                             sda17=sda17+szx4+sda23+bit
@@ -421,14 +403,9 @@ class compression:
                                             #print(len(sda17))
                                             
                                             bits="0"
-                                            Spin=0
                                             
-                                    if ccc==2:
-                                    	
-                                    	
-                                    
-                                    	Circle_times2=Circle_times2-1
-                                    	sda18=sda3
+                                            
+                                 
                                           
                                             
                                      
@@ -608,7 +585,8 @@ class compression:
                                         T7 = int(sda3, 2)
                                         T8 = int(sda4, 2)
                                         T9 = int(sda5, 2)
-                                        e=(2**128)-1
+                                        e=(2**7000)-1
+                                        j=e+T8
                                         T7=T7*j
                                         T7=T7+T9
                                        
