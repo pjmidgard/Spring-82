@@ -423,7 +423,8 @@ class compression:
                                     Circle_times2=Circle_times2+1
                                     
                                     if ccc==2:
-                                            sda17=sda18
+                                            sda17=sda3
+                                            Circle_times2=Circle_times2-1
                                             #print(T7)
                                             
                                             
