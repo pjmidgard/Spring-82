@@ -353,7 +353,7 @@ class compression:
 	                                                g=g+1
 	                                               
 	                                                
-	                                        if g>(2**6999)-2:
+	                                        if g>(2**6998)-2:
 	                                                ccc=2
 	                                                f=1
 	                                                                 
