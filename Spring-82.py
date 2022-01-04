@@ -367,7 +367,9 @@ class compression:
                                   
                                     if ccc==1:
                                     	
-                                    	 	sda17=bin(T7)[2:]
+                                    	    sda17=bin(T7)[2:]
+                                   
+                                    if ccc==1:
                                     	                          
                                             sda23=bin(g)[2:]
                                             hr=6998
