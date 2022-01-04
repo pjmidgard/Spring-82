@@ -441,7 +441,7 @@ class compression:
                                     	   
 
 
-                                            sda29=bin(Circle_times2)[2:]
+                                            sda29=bin(Circle_times3)[2:]
                                             lenf=len(sda29)
 
                                             szx7=""
