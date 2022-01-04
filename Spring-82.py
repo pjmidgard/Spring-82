@@ -354,7 +354,7 @@ class compression:
 	                                               
 	                                                
 	                                        if g>(2**6998)-2:
-	                                                c=2
+	                                                ccc=2
 	                                                f=1
 	                                                                 
                                                 
