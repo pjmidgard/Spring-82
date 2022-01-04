@@ -1,4 +1,3 @@
-
 from time import time
 cvf=0
 Portal=2
