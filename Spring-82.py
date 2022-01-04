@@ -372,11 +372,11 @@ class compression:
                                     if ccc==1:
                                     	                          
                                             sda23=bin(g)[2:]
-                                            hr=7
+                                            hr=6998
                                             
                                         	
                                             lenf=len(sda23)
-                                            if lenf>7:
+                                            if lenf>6998:
                                             	ccc=2
                                             szx4=""
                                             xc=hr-lenf%hr
