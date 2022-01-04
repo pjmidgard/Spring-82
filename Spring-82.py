@@ -1,3 +1,4 @@
+
 from time import time
 cvf=0
 Portal=2
@@ -332,7 +333,7 @@ class compression:
                                                 f=1
                                                 
                         
-                                    if  g>(2**6999)-2:
+                                    if  g>(2**6998)-2:
 	                                    e=(2**7000)-1
 	                                    g=0
 	                                    f=0
@@ -353,7 +354,7 @@ class compression:
 	                                                g=g+1
 	                                               
 	                                                
-	                                        if g>(2**6998)-2:
+	                                        if g>(2**6999)-2:
 	                                                ccc=2
 	                                                f=1
 	                                                                 
@@ -372,11 +373,11 @@ class compression:
                                     if ccc==1:
                                     	                          
                                             sda23=bin(g)[2:]
-                                            hr=6998
+                                            hr=7
                                             
                                         	
                                             lenf=len(sda23)
-                                            if lenf>6998:
+                                            if lenf>7:
                                             	ccc=2
                                             szx4=""
                                             xc=hr-lenf%hr
@@ -413,45 +414,35 @@ class compression:
                                    
                                     Circle_times2=Circle_times2+1
                                     
-                                    if ccc==2:
-                                            sda17=sda3
-                                            Circle_times2=Circle_times2-1
+                                   
+                                            
                                             #print(T7)
                                             
                                             
-                                 
-                                    sda2=sda17
-                                    #print(len(sda17))
+                                    if ccc==2:
+                                    	sda2=sda17
+                                    
+                                    if ccc==2:
+                                            sda17=sda3
+                                   
+                                    
+                                    if   lenfS<=14000 or ccc==2:
+                                     	                                    Circle_times3=Circle_times2-1
+                                     	
 
                                    
                                     		
 
                                     		
-                                    if   lenfS<=14000 or ccc==2:
-
-
-                                            lenf=len(sda17)
-                                            
-                                            sda26=bin(Circle_times2)[2:]
-                                            lenfTT=len(sda26)
-                                            
-                                                    
-                                            
-                                            szx6=""
-                                            xc=8-lenf%8
-                                            z=0
-                                            if xc!=0:
-                                                if xc!=8:
-                                                        while z<xc:
-                                                         	szx6="0"+szx6
-                                                         	z=z+1
+             
                                             
                                     
                                                 
                                     if   lenfS<=14000 or ccc==2:
+                                    	   
 
 
-                                            sda29=bin(lenfTT)[2:]
+                                            sda29=bin(Circle_times2)[2:]
                                             lenf=len(sda29)
 
                                             szx7=""
@@ -479,8 +470,11 @@ class compression:
                                            
 
                                     if   lenfS<=14000 or ccc==2:
+                                            lenf=len(sda17)
+                                            sda17=sda17[:lenf-1]
                                             
-                                            sda17=szx7+sda29+szx6+sda26+szx+sda17
+                                            
+                                            sda17=szx7+sda29+szx+sda17
 
 
 
