@@ -386,7 +386,7 @@ class compression:
                                         	
                                             lenf=len(sda23)
                                             if lenf>6998:
-                                            	c=2
+                                            	ccc=2
                                             szx4=""
                                             xc=hr-lenf%hr
                                             z=0
