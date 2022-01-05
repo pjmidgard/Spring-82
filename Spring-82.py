@@ -611,6 +611,9 @@ class compression:
                                         
                                         
                                         if  Circle_times2==T:
+                                        	   
+                                            if C==1 and T==0:
+                                            	sda17=sda3
                                         
                                             if C==1 and T!=0:
                                             	sda17=bin(T7)[3:]
