@@ -472,7 +472,8 @@ class compression:
 
                                     if   lenfS<=14000 or ccc==2:
                                             lenf=len(sda17)
-                                            sda17=sda17[:lenf-1]
+                                            if ccc==2:
+                                            	sda17=sda17[:lenf-1]
                                             
                                             
                                             sda17=szx7+sda29+szx+sda17
