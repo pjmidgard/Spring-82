@@ -355,6 +355,8 @@ class compression:
 	                                                
 	                                        if g>(2**6998)-2:
 	                                                ccc=2
+	                                                bit=""
+	                                                sda3=sda3[1:]
 	                                                f=1
 	                                                                 
                                                 
@@ -395,20 +397,14 @@ class compression:
                                             
                                             bits="0"
                                             
-                                            
-                                 
-                                          
-                                            
-                                     
-                                            
-                                    
-                                  
+                              
                                     #print(bits)
                                     
                                     
                                    
                                     
                                     lenfS=len(sda17)
+                                    #print(lenfS)
                                     
                                    
                                     Circle_times2=Circle_times2+1
@@ -425,19 +421,11 @@ class compression:
                                             sda17=sda3
                                    
                                     
-                                    if   lenfS<=14000 or ccc==2:
+                                    if   lenfS<=80 or ccc==2:
                                         
                                         if ccc==2:
                                         	Circle_times3=Circle_times2-1
-                                     	
-
-                                   
-                                    		
-
-                                    		
-             
-                                            
-                                    
+                                
                                                 
                                     if   lenfS<=14000 or ccc==2:
                                     	   
@@ -471,11 +459,7 @@ class compression:
                                            
 
                                     if   lenfS<=14000 or ccc==2:
-                                            lenf=len(sda17)
-                                            if ccc==2:
-                                            	sda17=sda17[:lenf-1]
-                                            
-                                            
+                                            lenf=len(sda17)                                           
                                             sda17=szx7+sda29+szx+sda17
 
 
@@ -562,19 +546,19 @@ class compression:
                                                 sda3=sda3[48:]
                                                 lenf6=len(sda3)
                                                 
+                                        if C==1 and T!=0:
+                                                sda4=sda3[lenf6-6999:lenf6-1]
+                                                sda5=sda3[lenf6-1:lenf6]
+                                                sda3=sda3[0:lenf6-6999]
                                         
-                                        sda4=sda3[lenf6-6999:lenf6-1]
-                                        sda5=sda3[lenf6-1:lenf6]
-                                        sda3=sda3[0:lenf6-6999]
-                                
-                                        
-                                        T7 = int(sda3, 2)
-                                        T8 = int(sda4, 2)
-                                        T9 = int(sda5, 2)
-                                        e=(2**7000)-1
-                                        j=e+T8
-                                        T7=T7*j
-                                        T7=T7+T9
+                                                
+                                                T7 = int(sda3, 2)
+                                                T8 = int(sda4, 2)
+                                                T9 = int(sda5, 2)
+                                                e=(2**7000)-1
+                                                j=e+T8
+                                                T7=T7*j
+                                                T7=T7+T9
                                        
                                     sda6=sda4
                                     sda4=""
@@ -603,8 +587,8 @@ class compression:
                                         wer=sda6
                                         sda4=""
                                         szx=""
-                                        
-                                        Circle_times2=Circle_times2+1
+                                        if C==1 and T!=0:
+                                                Circle_times2=Circle_times2+1
 
                                         lenf9=len(sda17)
                                         #print(Circle_times2)
