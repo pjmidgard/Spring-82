@@ -415,8 +415,7 @@ class compression:
                                     sda2=sda17
                                     
                                     if ccc==2:
-                                            if   Circle_times2==0:
-                                                    sda3=sda3[1:]
+                                            
                                             sda17=sda3
                                    
                                     
