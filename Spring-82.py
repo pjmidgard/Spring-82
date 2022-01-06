@@ -351,15 +351,12 @@ class compression:
 	                                                e=e+1
 	                                                
 	                                                g=g+1
-	                                               
 	                                                
-	                                        if g>(2**6998)-2:
+	                                        if g>(2**30)-2:
 	                                                ccc=2
 	                                                bit=""
-	                                                if   Circle_times2==0 
-                                                                sda3=sda3[1:]
-	                                                f=1
-	                                                                 
+	                                                
+	                                                f=1       
                                                 
                                                 
                              
@@ -419,6 +416,8 @@ class compression:
                                     	sda2=sda17
                                     
                                     if ccc==2:
+                                            if   Circle_times2==0:
+                                                    sda3=sda3[1:]
                                             sda17=sda3
                                    
                                     
