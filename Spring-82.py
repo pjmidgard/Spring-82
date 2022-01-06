@@ -403,15 +403,14 @@ class compression:
                                     
                                     lenfS=len(sda17)
                                     #print(lenfS)
+
+
+                                    if ccc==2 and Circle_times2==0:
+                                                    sda3=sda3[1:]
                                     
                                    
                                     Circle_times2=Circle_times2+1
                                     
-                                   
-                                            
-                                            #print(T7)
-                                            
-                                            
                                     if ccc==2:
                                     	sda2=sda17
                                     
