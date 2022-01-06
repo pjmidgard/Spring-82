@@ -356,7 +356,8 @@ class compression:
 	                                        if g>(2**6998)-2:
 	                                                ccc=2
 	                                                bit=""
-	                                                sda3=sda3[1:]
+	                                                if   Circle_times2==0 
+                                                                sda3=sda3[1:]
 	                                                f=1
 	                                                                 
                                                 
