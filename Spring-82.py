@@ -332,8 +332,8 @@ class compression:
                                                 f=1
                                                 
                         
-                                    if  g>(2**6998)-2:
-	                                    e=(2**7000)-1
+                                    if  g>(2**7000)-2:
+	                                    e=(2**6998)-1
 	                                    g=0
 	                                    f=0
 	                                    T6=0
@@ -352,7 +352,7 @@ class compression:
 	                                                
 	                                                g=g+1
 	                                                
-	                                        if g>(2**30)-2:
+	                                        if g>(2**6998)-2:
 	                                                ccc=2
 	                                                bit=""
 	                                                
