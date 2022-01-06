@@ -421,7 +421,7 @@ class compression:
                                             sda17=sda3
                                    
                                     
-                                    if   lenfS<=80 or ccc==2:
+                                    if   lenfS<=14000 or ccc==2:
                                         
                                         if ccc==2:
                                         	Circle_times3=Circle_times2-1
