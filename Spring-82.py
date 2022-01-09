@@ -611,11 +611,11 @@ class compression:
                                             	 
                                             	sda17=bin(T7)[3:]
                                             	lenf14=len(sda17)
-                                            	lenf15=lenf14-1
-                                            	lenf16=lenf15%8
+                                            	lenf16=lenf14%8
                                             	if lenf16!=0:
                                             		print("file corupted")
                                             		raise SystemExit
+                                            		
                                             		
                                             	sda17=bin(T7)[3:]
                                             	lenf=len(sda17)
