@@ -608,6 +608,14 @@ class compression:
                                             	sda17=szx+sda17
                                         
                                             if C==1 and T!=0:
+                                            	 
+                                            	sda17=bin(T7)[3:]
+                                            	lenf14=len(sda17)
+                                            	lenf15=lenf14-1
+                                            	lenf16=lenf15%8
+                                            	if lenf16!=0:
+                                            		raise SystemExit
+                                            		
                                             	sda17=bin(T7)[3:]
                                             	lenf=len(sda17)
                                             	szx=""
